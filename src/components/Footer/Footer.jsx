@@ -73,7 +73,7 @@ const handleChange = (event) => {
           {data.name} {data.email} {data.phone} {data.message}   
         </p> */}
 
-        <img class="blogImage" src="../../../blog.png" alt="Image" onClick={() => window.open(pdf)} />
+        <img id="blogImage" src="../../../blog.png" alt="Image" onClick={() => window.open(pdf)} />
 
 
       </form>
