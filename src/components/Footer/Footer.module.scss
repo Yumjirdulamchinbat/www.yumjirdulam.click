@@ -1,8 +1,11 @@
 @import'../../styles/contants.scss';
 
 
+.blogImage:hover{
+  cursor: pointer;
+}
 .wrapper {
-  background: white;
+  background: white{}
 
   form {
     display: flex;
