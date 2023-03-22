@@ -64,7 +64,7 @@ const handleChange = (event) => {
         <input type="email" name="email" onChange={handleChange} value={formData.email} placeholder="example@gmail.com" />
         <input type="phone" name="phone" onChange={handleChange} value={formData.phone} placeholder="+1" />
         <textarea name="message" onChange={handleChange} value={formData.message} rows="10" placeholder="type here..." />
-        <button onClick={handleSubmit} type="submit">Submit</button>
+        <button onClick={handleSubmit} type="submit">Submits</button>
         {/* <p>
           {data.name} {data.email} {data.phone} {data.message}   
         </p> */}
