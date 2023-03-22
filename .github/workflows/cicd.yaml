@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BUCKET: www.yumjirdulam.click
-      DIST: build
+      DIST: dist
       REGION: us-east-1
       DIST_ID: E2LZQWPJGK8UF2
 
