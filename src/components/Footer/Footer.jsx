@@ -3,6 +3,10 @@ import css  from './Footer.module.scss';
 import {motion} from "framer-motion";
 import { staggerChildren, footerVariants } from '../../utils/motion';
 import { v4 as uuidv4 } from 'uuid'
+
+const pdf = '../../../blog.pdf';
+
+
 const Footer = () => {
   const [formData, setFormData] = useState({ 
     name: '', 
@@ -68,6 +72,10 @@ const handleChange = (event) => {
         {/* <p>
           {data.name} {data.email} {data.phone} {data.message}   
         </p> */}
+
+        <img src="../../../public/blog.png" alt="Image" onClick={() => window.open(pdf)} />
+
+
       </form>
     
       </motion.section>
