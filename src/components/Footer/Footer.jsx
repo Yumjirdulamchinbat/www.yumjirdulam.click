@@ -48,6 +48,13 @@ const handleChange = (event) => {
       });
      if(response.ok){
       alert("Your message was sent successfully.");
+      setFormData({
+         name: '',
+         email:'',
+         phone:'',
+         message:''
+
+      });
      }else{
       alert("There was an error sending your message, Please try again later.");
      }
