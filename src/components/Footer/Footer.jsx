@@ -46,8 +46,14 @@ const handleChange = (event) => {
         },
         body: JSON.stringify({"id": uuidv4(),"name": formData.name,"email": formData.email, "message": formData.message, "phone": formData.phone}),
       });
-    } catch (error) {
+     if(response.ok){
+      alert("Your message was sent successfully.");
+     }else{
+      alert("There was an error sending your message, Please try again later.");
+     }
+} catch (error) {
       console.error(error);
+      alert("There was an error sending your message, Please try again later.")
     }
   };
 
